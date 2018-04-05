@@ -44,3 +44,4 @@ ggmap(UK_map)+ geom_point(data=longlat,aes(x=long,y=lat),color='red',size=1)
 UK_map= get_map(location = c(-1.8575,53.7270), zoom =14,maptype='roadmap', color='bw')
 ggmap(UK_map)+ geom_point(data=longlat,aes(x=long,y=lat),color='red',size=1.5)
   
+#####
