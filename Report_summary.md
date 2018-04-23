@@ -56,8 +56,8 @@ UK_map_overview= get_map(location = c(mean(longlat$long),mean(longlat$lat)), zoo
 UK_map_Halifax= get_map(location = c(-1.87,53.7270), zoom =14,maptype='hybrid', color='bw')
 ```
 
-![Figure.1 balalala](Report_summary_files/figure-markdown_github/figs-1.png) 
-*image_caption*
+![Figure.1](Report_summary_files/figure-markdown_github/figs-1.png) 
+
 ``` r
 ggmap(UK_map_Halifax)+geom_point(data=longlat,aes(x=long,y=lat,shape=Road_Surface,color=Road_Surface),size=3)
 ```
