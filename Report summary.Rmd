@@ -2,9 +2,8 @@
 title: "Data Analysis on UK Car Accidents & Injuries"
 author: "Kaixiang Huang, Yanqi Huang, Xinyi Hou, Xinhui Peng, Aiwei Li"
 date: "April 23, 2018"
-output: 
-  html_document:
-    fig_caption: yes
+output: github_document
+fig_caption: yes
 ---
 
 ## Introduction, Objective and Motivation
